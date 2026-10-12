@@ -1,0 +1,81 @@
+{
+  "samples": 602,
+  "accuracy": 0.686046511627907,
+  "classes": [
+    "Boat",
+    "Bicycle",
+    "Bus",
+    "Car",
+    "Motorbike"
+  ],
+  "confusion_matrix": [
+    [
+      115,
+      1,
+      1,
+      16,
+      3
+    ],
+    [
+      9,
+      71,
+      5,
+      35,
+      11
+    ],
+    [
+      4,
+      2,
+      63,
+      36,
+      1
+    ],
+    [
+      2,
+      4,
+      5,
+      114,
+      3
+    ],
+    [
+      0,
+      21,
+      1,
+      29,
+      50
+    ]
+  ],
+  "scope": "Existing validation split reused during model selection; not an independent test or production benchmark.",
+  "class_results": [
+    {
+      "class": "Boat",
+      "support": 136,
+      "precision": 0.8846153846153846,
+      "recall": 0.8455882352941176
+    },
+    {
+      "class": "Bicycle",
+      "support": 131,
+      "precision": 0.7171717171717171,
+      "recall": 0.5419847328244275
+    },
+    {
+      "class": "Bus",
+      "support": 106,
+      "precision": 0.84,
+      "recall": 0.5943396226415094
+    },
+    {
+      "class": "Car",
+      "support": 128,
+      "precision": 0.4956521739130435,
+      "recall": 0.890625
+    },
+    {
+      "class": "Motorbike",
+      "support": 101,
+      "precision": 0.7352941176470589,
+      "recall": 0.49504950495049505
+    }
+  ]
+}
